@@ -1,7 +1,8 @@
-require "spec_helper"
+d"spec_helper"
 
-describe "#introduction" do
-  it "takes in an argument of a name and puts out a phrase with that name using string interpolation" do
+"introduction = TAi = `Hi, my name is #Tai"
+
+"takes in an argument of a name and puts out a phrase with that name using string interpolation" do
     expect{introduction("Josh")}.to output("Hi, my name is Josh.\n").to_stdout
     expect{introduction("Dan")}.to output("Hi, my name is Dan.\n").to_stdout
   end
